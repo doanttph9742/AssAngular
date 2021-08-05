@@ -1,0 +1,60 @@
+<!-- <header class="sticky-top flex-md-nowrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-2 menu">
+                <img src="./../uploads/logo.png">
+            </div>
+            <div class="col-2">
+                
+            </div>
+            <div class="col-8 menu">
+                <ul>
+                    <li><a aria-current="page" href="#">Trang chủ</a></li>
+                    <li><a routerLink="/product">Sản phẩm</a>
+                        <ul class="menu_child">
+                            <li><a href="">Đồ gia dụng</a></li>
+                            <li><a href="">Đồ điện tử</a></li>
+                            <li><a href="">Đồ trang sức</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Liên hệ</a></li>
+                    <li><a routerLink="/product/add">User</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header> -->
+
+<div class="header">
+    <div class="logo"><a aria-current="page" class="active" href="/"><svg xmlns="http://www.w3.org/2000/svg" width="100"
+                height="50" viewBox="0 0 192.756 192.756"></svg></a></div>
+    <nav>
+        <ul id="menu">
+            <li><a aria-current="page" class="link-menu active" href="/">Trang chủ</a></li>
+            <li><a aria-current="page" class="link-menu active" href="">Sản phẩm</a>
+                <!-- <ul>
+                    <li><a href="">CITIZEN</a></li>
+                    <li><a href="">FORMAL</a></li>
+                    <li><a href="">CASUAL</a></li>
+                    <li><a href="">ACTIVE</a></li>
+                </ul> -->
+            </li>
+            <li><a class="link-menu" href="/about">Giới thiệu</a></li>
+            <li><a class="link-menu" href="/contact">Liên hệ</a></li>
+            <li><a class="link-menu" routerLink="/product">Quản trị</a></li>
+        </ul>
+    </nav>
+    <div class="icons">
+        <div class="search"><input type="text" id="test123" placeholder="Tìm kiếm"><button>search</button></div><a
+            href="/cartpage"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                class="bi bi-bag-fill" viewBox="0 0 16 16">
+                <path
+                    d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z">
+                </path>
+            </svg></a><a class="btn " href="/signin" style="width: 100px;">Login</a>
+    </div>
+</div>
+
+
+
+<app-nav></app-nav>
